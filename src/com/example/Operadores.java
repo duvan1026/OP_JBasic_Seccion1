@@ -33,6 +33,17 @@ public class Operadores {
         boolean resultado2 = numero1 < numero2;
         System.out.println("resultado2: " + resultado2);
 
+        /*
+        Logicos
+        and &&
+        or ||
+         */
+
+        boolean resultado3 = numero1 > 5 && numero1 < 30;
+
+        int edad = 17;
+        boolean carnetJoven = edad  >= 15 && edad <= 26;
+
 
 
 
