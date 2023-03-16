@@ -11,10 +11,15 @@ public class Funciones {
 
         System.out.println("\n/**** Opcion 2: Función sin parametros y con tipo de retorno ****/");
         // Opcion 2: Función sin parametros y con tipo de retorno
-        System.out.println(getMenu());
+        String menu = getMenu();
+        System.out.println(menu);
 
+        double price = getPrice();
+        System.out.println(price);
+    }
 
-
+    static double getPrice() {
+        return 100.99;
     }
 
     /**
@@ -23,8 +28,8 @@ public class Funciones {
     static void showMenu(){
         System.out.println("bienvenidos al E-Commerce de zapatillas");
         System.out.println("1- ver zapatillas");
-        System.out.println("2- Comprar zapatilla");
-        System.out.println("3- Salir");
+//        System.out.println("2- Comprar zapatilla");
+//        System.out.println("3- Salir");
     }
 
     static String getMenu(){
