@@ -16,6 +16,14 @@ public class Funciones {
 
         double price = getPrice();
         System.out.println(price);
+        
+        
+        // Opcion 3: Funcion con parametros y sin tipo de retorno
+        imprimirSaludoBuenosDias("OpenBootcamp");
+    }
+
+    static void imprimirSaludoBuenosDias(String name) {
+        System.out.println(name);
     }
 
     static double getPrice() {
