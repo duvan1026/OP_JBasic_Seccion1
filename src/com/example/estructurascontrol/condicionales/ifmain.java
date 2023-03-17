@@ -9,10 +9,7 @@ public class ifmain {
 
         if( esMayor ){
             System.out.println("Es Mayor de edad");
-        }else {
-            System.out.println("Es Menor de edad");
         }
-
 
 
     }
