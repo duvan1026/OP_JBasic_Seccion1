@@ -33,6 +33,8 @@ public class Operadores {
         boolean resultado2 = numero1 < numero2;
         System.out.println("resultado2: " + resultado2);
 
+        System.out.println();
+
         /*
         Logicos
         and &&
