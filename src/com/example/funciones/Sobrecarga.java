@@ -1,4 +1,4 @@
-package com.example;
+package com.example.funciones;
 
 /**
  * Sobrecarga: me permite duplicar un método siempre y cuando

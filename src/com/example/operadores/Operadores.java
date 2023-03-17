@@ -1,4 +1,4 @@
-package com.example;
+package com.example.operadores;
 
 public class Operadores {
 
