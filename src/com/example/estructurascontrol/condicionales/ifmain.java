@@ -1,2 +1,5 @@
-package com.example.estructurascontrol.condicionales;public class ifmain {
+package com.example.estructurascontrol.condicionales;
+
+public class ifmain {
+
 }
